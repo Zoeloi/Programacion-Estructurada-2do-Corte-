@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Productos.Properties
+namespace Corte2.Properties
 {
 
 

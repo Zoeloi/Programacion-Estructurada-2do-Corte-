@@ -4,26 +4,19 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Productos
+namespace Corte2
 {
     internal static class Program
     {
         /// <summary>
-        /// Punto de entrada principal para la aplicación.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            using (Login login = new Login())
-            {
-                if(login.ShowDialog() == DialogResult.OK)
-                {
-                    Application.Run(new FrmPrincipal());
-                }
-                
-            }
+            Application.Run(new Form1());
         }
     }
 }
